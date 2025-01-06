@@ -130,7 +130,6 @@ function sampleRUM(checkpoint, data) {
  * Setup block utils.
  */
 function setup() {
-  console.log("Set Up develop branch");
   window.hlx = window.hlx || {};
   window.hlx.RUM_MASK_URL = 'full';
   window.hlx.RUM_MANUAL_ENHANCE = true;
