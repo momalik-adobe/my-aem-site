@@ -24,7 +24,7 @@
           "component": "reference",
           "valueType": "string",
           "name": "image",
-          "label": "Image Develop",
+          "label": "Image1",
           "multi": false
         },
         {
