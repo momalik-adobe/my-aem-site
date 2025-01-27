@@ -183,7 +183,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "altText",
+        "name": "imagealt",
         "label": "Alternate Text"
       }
     ]
