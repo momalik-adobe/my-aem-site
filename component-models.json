@@ -160,14 +160,52 @@
     ]
   },
   {
+    "id": "hero-banner",
+    "fields": [
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "configUrl": "https://1964180-msilassetpickerconf.adobeio-static.net/api/v1/web/assetpicker_config_aio/get-config",
+        "valueType": "string",
+        "name": "desktopImage",
+        "label": "Desktop Image",
+        "multi": false,
+        "assetType": "image"
+      },
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "configUrl": "https://1964180-msilassetpickerconf.adobeio-static.net/api/v1/web/assetpicker_config_aio/get-config",
+        "valueType": "string",
+        "name": "mobileImage",
+        "label": "mobileImage",
+        "multi": false,
+        "assetType": "image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "altText",
+        "label": "Alternate Text"
+      }
+    ]
+  },
+  {
     "id": "hero",
     "fields": [
       {
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image1",
+        "label": "Image Block",
         "multi": false
+      },
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "configUrl": "https://develop--demo-site--momalik-adobe.aem.page/tools/assets-selector/image.config.json",
+        "valueType": "string",
+        "name": "mobileImage",
+        "label": "mobileImage",
+        "multi": false,
+        "assetType": "image"
       },
       {
         "component": "text",

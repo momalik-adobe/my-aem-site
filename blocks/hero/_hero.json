@@ -24,7 +24,7 @@
           "component": "reference",
           "valueType": "string",
           "name": "image",
-          "label": "Image 1",
+          "label": "Image Block",
           "multi": false
         },
         {
