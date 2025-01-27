@@ -28,6 +28,15 @@
           "multi": false
         },
         {
+          "component": "custom-asset-namespace:custom-asset",
+          "configUrl": "https://develop--demo-site--momalik-adobe.aem.page/tools/assets-selector/image.config.json",
+          "valueType": "string",
+          "name": "mobileImage",
+          "label": "mobileImage",
+          "multi": false,
+          "assetType": "image"
+        },
+        {
           "component": "text",
           "valueType": "string",
           "name": "imageAlt",
