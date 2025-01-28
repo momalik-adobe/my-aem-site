@@ -29,5 +29,12 @@
             ]
         }
     ],
-    "filters": []
+    "filters": [
+        {
+            "id": "hero-banner",
+            "components": [
+              "hero-banner"
+            ]
+          }
+    ]
 }
