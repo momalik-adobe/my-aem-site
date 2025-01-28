@@ -21,20 +21,31 @@
             "id": "hero-banner",
             "fields": [
                 {
+                    "component": "custom-asset-namespace:custom-asset",
+                    "configUrl": "https://develop--demo-site--momalik-adobe.aem.page/tools/assets-selector/image.config.json",
+                    "valueType": "string",
+                    "name": "desktopImage",
+                    "label": "Desktop Image",
+                    "multi": false,
+                    "assetType": "image"
+                },
+                {
+                    "component": "custom-asset-namespace:custom-asset",
+                    "configUrl": "https://develop--demo-site--momalik-adobe.aem.page/tools/assets-selector/image.config.json",
+                    "valueType": "string",
+                    "name": "mobileImage",
+                    "label": "mobileImage",
+                    "multi": false,
+                    "assetType": "image"
+                },
+                {
                     "component": "text",
                     "valueType": "string",
-                    "name": "imagealt",
+                    "name": "altextforimage",
                     "label": "Alternate Text"
                 }
             ]
         }
     ],
-    "filters": [
-        {
-            "id": "hero-banner",
-            "components": [
-              "hero-banner"
-            ]
-          }
-    ]
+    "filters": []
 }
