@@ -22,7 +22,7 @@
             "fields": [
                 {
                     "component": "custom-asset-namespace:custom-asset",
-                    "configUrl": "https://develop--demo-site--momalik-adobe.aem.page/tools/assets-selector/image.config.json",
+                    "configUrl": "https://develop--demo-site--momalik-adobe.aem.live/tools/assets-selector/image.config.json",
                     "valueType": "string",
                     "name": "desktopImage",
                     "label": "Desktop Image",
@@ -31,7 +31,7 @@
                 },
                 {
                     "component": "custom-asset-namespace:custom-asset",
-                    "configUrl": "https://develop--demo-site--momalik-adobe.aem.page/tools/assets-selector/image.config.json",
+                    "configUrl": "https://develop--demo-site--momalik-adobe.aem.live/tools/assets-selector/image.config.json",
                     "valueType": "string",
                     "name": "mobileImage",
                     "label": "mobileImage",
