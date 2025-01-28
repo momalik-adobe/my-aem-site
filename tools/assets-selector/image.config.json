@@ -1,104 +1,46 @@
 {
-    "repoNames": [
-        "delivery-p136806-e1403562.adobeaemcloud.com",
-        "delivery-p136806-e1377844.adobeaemcloud.com"
-    ],
-    "aemTierType": [
-        "delivery"
-    ],
-    "filterSchema": [
-        {
-            "header": "File Types",
-            "groupKey": "FileTypeGroup",
-            "fields": [
-                {
-                    "excludeTags": [
-                        "image/*",
-                        "video/*",
-                        "application/pdf"
-                    ],
-                    "element": "checkbox",
-                    "name": "type",
-                    "defaultValue": [
-                        "image/*"
-                    ],
-                    "options": [
-                        {
-                            "label": "Images",
-                            "value": "image/*"
-                        },
-                        {
-                            "label": "Videos",
-                            "value": "video/*"
-                        },
-                        {
-                            "label": "PDFs",
-                            "value": "application/pdf"
-                        }
-                    ],
-                    "orientation": "horizontal"
-                }
-            ]
-        },
-        {
-            "header": "Assets Tags",
-            "groupKey": "AssetTagsGroup",
-            "fields": [
-                {
-                    "element": "taggroup",
-                    "name": "property=metadata.application.xcm:keywords.id",
-                    "defaultValue": [],
-                    "options": [],
-                    "columns": 3
-                }
-            ]
-        },
-        {
-            "fields": [
-                {
-                    "element": "checkbox",
-                    "name": "expiredAsset",
-                    "options": [
-                        {
-                            "label": "Expired",
-                            "value": "expired"
-                        }
-                    ],
-                    "orientation": "horizontal",
-                    "columns": 2
-                },
-                {
-                    "element": "DateRange",
-                    "name": "property=pur:expirationDate",
-                    "position": "top",
-                    "label": "Expiration Duration",
-                    "orientation": "horizontal"
-                }
-            ],
-            "header": "Expiration Status",
-            "groupKey": "ExpirationGroup"
-        },
-        {
-            "fields": [
-                {
-                    "element": "Number",
-                    "name": "property=tiff:imageWidth",
-                    "range": true,
-                    "quiet": true,
-                    "label": "Width",
-                    "hideArrows": true,
-                    "columns": 2,
-                    "readOnly": true,
-                    "defaultValue": [
-                        {
-                            "min": 0,
-                            "max": 5000
-                        }
-                    ]
-                }
-            ],
-            "header": "Size",
-            "groupKey": "SizeGroup"
-        }
-    ]
-}
+    "filterSchema": [{
+      "fields": [{
+        "defaultValue": ["image/*"],
+        "element": "checkbox",
+        "name": "type",
+        "options": [{
+          "label": "Image",
+          "readOnly": true,
+          "value": "image/*"
+        }]
+      }],
+      "groupKey": "FileTypeGroup",
+      "header": "File Type"
+    }, {
+      "fields": [{
+        "defaultValue": ["dam:assetStatus==approved"],
+        "element": "radiogroup",
+        "name": "property",
+        "options": [{
+          "label": "Approved",
+          "value": "dam:assetStatus==approved"
+        }],
+        "readOnly": true
+      }],
+      "groupKey": "StatusGroup",
+      "header": "Approval Status"
+    }, {
+      "fields": [{
+        "columns": 3,
+        "defaultValue": ["nexa"],
+        "element": "taggroup",
+        "name": "property=xcm:keywords.id=",
+        "options": [{
+          "label": "Nexa",
+          "value": "nexa"
+        }]
+      }],
+      "groupKey": "AssetTagsGroup",
+      "header": "Assets Tags"
+    }],
+    "prodDomain": "dev-nexa.marutisuzuki.com",
+    "repoNames": ["author-p135331-e1341966.adobeaemcloud.com"],
+    "repositories": ["delivery-p135331-e1341966.adobeaemcloud.com"],
+    "rootPath": "/content/dam"
+  }
