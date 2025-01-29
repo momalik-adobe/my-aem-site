@@ -200,7 +200,7 @@
       },
       {
         "component": "custom-asset-namespace:custom-asset",
-        "configUrl": "https://develop--demo-site--momalik-adobe.aem.page/tools/assets-selector/image.config.json",
+        "configUrl": "https://644509-mmdemoapp-stage.adobeioruntime.net/api/v1/web/headless-actions-demo/headless-demo",
         "valueType": "string",
         "name": "mobileImage",
         "label": "mobileImage",
