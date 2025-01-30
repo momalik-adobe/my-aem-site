@@ -82,6 +82,7 @@ function buildAutoBlocks() {
  * @param {HTMLElement} main - The main container element that includes the links to be processed.
  */
 export function decorateDMImages(main) {
+  console.log('Decorate DM Images Called');
   main.querySelectorAll('a[href^="https://delivery-p"]').forEach((a) => {
     const url = new URL(a.href.split('?')[0]);
     console.log(url);
@@ -107,12 +108,14 @@ export function decorateDMImages(main) {
 // eslint-disable-next-line import/prefer-default-export
 export function decorateMain(main) {
   // hopefully forward compatible button decoration
+  console.log('Decorate Main Called');
   decorateButtons(main);
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
   decorateDMImages(main);
+  console.log('Decorate Main Finished');
 }
 
 /**
