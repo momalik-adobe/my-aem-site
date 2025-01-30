@@ -11,7 +11,11 @@ import {
   loadSections,
   loadCSS,
 } from './aem.js';
-import { picture, source, img } from './dom-helper.js';
+import {
+  picture, 
+  source,
+  img,
+} from './dom-helper.js';
 /**
  * Moves all the attributes from a given elmenet to another given element.
  * @param {Element} from the element to copy attributes from
