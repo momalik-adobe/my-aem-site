@@ -31,7 +31,7 @@
                 },
                 {
                     "component": "custom-asset-namespace:custom-asset",
-                    "configUrl": "https://develop--demo-site--momalik-adobe.aem.page/tools/assets-selector/dm_config.json",
+                    "configUrl": "https://develop--demo-site--momalik-adobe.aem.live/tools/assets-selector/dm_config.json",
                     "valueType": "string",
                     "name": "mobileImage",
                     "label": "mobileImage",
