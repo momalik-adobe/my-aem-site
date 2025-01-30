@@ -15,7 +15,7 @@ import {
   picture, 
   source,
   img,
-} from './dom-helper.js';
+} from './dom-helpers.js';
 /**
  * Moves all the attributes from a given elmenet to another given element.
  * @param {Element} from the element to copy attributes from
