@@ -84,6 +84,7 @@ function buildAutoBlocks() {
 export function decorateDMImages(main) {
   main.querySelectorAll('a[href^="https://delivery-p"]').forEach((a) => {
     const url = new URL(a.href.split('?')[0]);
+    console.log(url);
     if (url.hostname.endsWith('.adobeaemcloud.com')) {
       const pictureEl = picture(
         source({ srcset: `${url.href}?width=1400&quality=85&preferwebp=true`, type: 'image/webp', media: '(min-width: 992px)' }),
