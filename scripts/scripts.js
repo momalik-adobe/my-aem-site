@@ -11,7 +11,7 @@ import {
   loadSections,
   loadCSS,
 } from './aem.js';
-
+import { picture, source, img } from './dom-helper.js';
 /**
  * Moves all the attributes from a given elmenet to another given element.
  * @param {Element} from the element to copy attributes from
@@ -107,10 +107,8 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
-  decorateDMImages(main)
+  decorateDMImages(main);
 }
-
-
 
 /**
  * Loads everything needed to get to LCP.
