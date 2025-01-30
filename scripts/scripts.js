@@ -12,7 +12,7 @@ import {
   loadCSS,
 } from './aem.js';
 import {
-  picture, 
+  picture,
   source,
   img,
 } from './dom-helpers.js';
