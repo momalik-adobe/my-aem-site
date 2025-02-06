@@ -43,6 +43,12 @@
                     "valueType": "string",
                     "name": "altextforimage",
                     "label": "Alternate Text"
+                },
+                {
+                    "component": "custom-asset",
+                    "valueType": "string",
+                    "name": "custom-asset",
+                    "label": "Custom Asset Text"
                 }
             ]
         }
