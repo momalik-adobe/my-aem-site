@@ -19,7 +19,7 @@
     ],
     "models": [
         {
-            "id": "hero-banner",
+            "id": "image-custom",
             "fields": [
                 {
                     "component": "custom-asset-namespace:custom-asset",
