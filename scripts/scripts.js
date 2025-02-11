@@ -114,7 +114,7 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
-  decorateDMImages(main);
+  //decorateDMImages(main);
   console.log('Decorate Main Finished');
 }
 
