@@ -174,7 +174,7 @@
       {
         "component": "custom-asset-namespace:custom-asset-mimetype",
         "valueType": "string",
-        "name": "mageMimeType"
+        "name": "imageMimeType"
       },
       {
         "component": "text",
