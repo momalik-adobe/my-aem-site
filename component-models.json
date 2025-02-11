@@ -166,7 +166,7 @@
         "component": "custom-asset-namespace:custom-asset",
         "configUrl": "https://develop--demo-site--momalik-adobe.aem.live/tools/assets-selector/dm_config.json",
         "valueType": "string",
-        "name": "desktopImage",
+        "name": "image_desktop",
         "label": "Desktop Image",
         "multi": false,
         "assetType": "image"
@@ -174,7 +174,7 @@
       {
         "component": "custom-asset-namespace:custom-asset-mimetype",
         "valueType": "string",
-        "name": "imageMimeType"
+        "name": "mage_desktopMimeType"
       },
       {
         "component": "text",
