@@ -45,7 +45,8 @@
         "cards",
         "columns",
         "fragment",
-        "hero-banner"
+        "hero-banner",
+        "image-custom"
       ]
     }
   ]
