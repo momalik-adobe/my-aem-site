@@ -22,7 +22,7 @@
             "fields": [
                 {
                     "component": "custom-asset-namespace:custom-asset",
-                    "configUrl": "https://dev--ups-dev--aemsites.aem.live/tools/asset-selector/image.config.json",
+                    "configUrl": "https://develop--demo-site--momalik-adobe.aem.live/tools/assets-selector/dm_config.json",
                     "valueType": "string",
                     "name": "desktopImage",
                     "label": "Desktop Image",
@@ -48,12 +48,6 @@
                     "valueType": "string",
                     "name": "altextforimage",
                     "label": "Alternate Text"
-                },
-                {
-                    "component": "custom-asset",
-                    "valueType": "string",
-                    "name": "custom-asset",
-                    "label": "Custom Asset Text"
                 }
             ]
         }
