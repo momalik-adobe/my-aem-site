@@ -186,15 +186,6 @@
         "component": "custom-asset-namespace:custom-asset",
         "configUrl": "https://develop--demo-site--momalik-adobe.aem.live/tools/assets-selector/dm_config.json",
         "valueType": "string",
-        "name": "mobileImage",
-        "label": "Mobile Image One",
-        "multi": false,
-        "assetType": "image"
-      },
-      {
-        "component": "custom-asset-namespace:custom-asset",
-        "configUrl": "https://develop--demo-site--momalik-adobe.aem.live/tools/assets-selector/dm_config.json",
-        "valueType": "string",
         "name": "dmImage",
         "label": "Dynamic Media Image",
         "multi": false,
