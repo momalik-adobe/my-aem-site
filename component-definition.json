@@ -174,7 +174,7 @@
         },
         {
           "title": "Image Custoom",
-          "id": "",
+          "id": "image-custom",
           "plugins": {
             "xwalk": {
               "page": {
