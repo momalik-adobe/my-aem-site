@@ -46,7 +46,8 @@
         "columns",
         "fragment",
         "hero-banner",
-        "image-custom"
+        "image-custom",
+        "cta"
       ]
     }
   ]
