@@ -150,6 +150,40 @@
     ]
   },
   {
+    "id": "cta",
+    "fields": [
+      {
+        "component": "text-input",
+        "name": "ctaText",
+        "label": "CTA Text",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "ctaLink",
+        "label": "CTA Link"
+      },
+      {
+        "component": "select",
+        "name": "ctaLinkTarget",
+        "value": "",
+        "label": "Open link in New Page ?",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Yes",
+            "value": "_blank"
+          },
+          {
+            "name": "No",
+            "value": "_self"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
