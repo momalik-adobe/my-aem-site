@@ -153,13 +153,13 @@
     "id": "cta",
     "fields": [
       {
-        "component": "text-input",
+        "component": "text",
         "name": "ctaText",
         "label": "CTA Text",
         "valueType": "string"
       },
       {
-        "component": "aem-content",
+        "component": "text",
         "valueType": "string",
         "name": "ctaLink",
         "label": "CTA Link"
