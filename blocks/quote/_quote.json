@@ -1,7 +1,7 @@
 {
     "definitions": [
       {
-        "title": "Qupte",
+        "title": "Quote",
         "id": "quote",
         "plugins": {
           "xwalk": {
