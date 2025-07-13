@@ -1,5 +1,5 @@
 export default function decorate(block) {
-  const [quoteText, auhtor] = block.querySelectorAll('p');
-  block.innerHTML = (`<span class="quote-text">${quoteText.textContent}</span>
-    <span class="quote-author">${auhtor.textContent}</span>`);
+  const [quoteText, author] = block.querySelectorAll('p');
+  block.innerHTML = (`<p class="quote-text">${quoteText.textContent}</p>
+    <p class="quote-author">${author.textContent}</p>`);
 }
