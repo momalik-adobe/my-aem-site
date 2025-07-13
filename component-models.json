@@ -291,5 +291,24 @@
         "name": "image_mobileMimeType"
       }
     ]
+  },
+  {
+    "id": "quote",
+    "fields": [
+      {
+        "component": "text-input",
+        "name": "quote",
+        "label": "Quote",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text-input",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author",
+        "value": ""
+      }
+    ]
   }
 ]
