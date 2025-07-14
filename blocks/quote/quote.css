@@ -1,12 +1,21 @@
-p.quote-text {
-  font-size: var(--body-font-size);
-  font-style: italic;
-  color: blue;
-  margin: 0;
+.section.quote-container.quote-wapper{
+  background-color: aqua;
+  
+  .quote{
+    .quote-text {
+      font-size: 1.5rem;
+      font-style: italic;
+      color: var(--dark-color);
+      margin-bottom: 0.5rem;
+    }
+    
+    .quote-author {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: var(--dark-color);
+    }
+  }
 }
 
-p.quote-author {
-  font-size: var(--body-font-size-xs);
-  color: greenyellow;
-  margin-top: 8px;
-}
+
+
