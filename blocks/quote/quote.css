@@ -1,20 +1,5 @@
 .section.cta-container.quote-container.quote-wapper{
   background-color: aqua;
-  
-  .quote{
-    .quote-text {
-      font-size: 1.5rem;
-      font-style: italic;
-      color: var(--dark-color);
-      margin-bottom: 0.5rem;
-    }
-    
-    .quote-author {
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: var(--dark-color);
-    }
-  }
 }
 
 
