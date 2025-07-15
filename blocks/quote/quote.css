@@ -13,7 +13,7 @@
     .quote-author{
       color: blue;
       font-style: italic;
-      text-align: right;
+      text-align: left;
     }
   }
 }
