@@ -29,7 +29,7 @@
         },
         {
           "component": "custom-asset-namespace:custom-asset",
-          "configUrl": "https://644509-mmdemoapp-stage.adobeioruntime.net/api/v1/web/headless-actions-demo/headless-demo",
+          "configUrl": "https://develop--demo-site--momalik-adobe.aem.live/tools/assets-selector/dm_config.json",
           "valueType": "string",
           "name": "mobileImage",
           "label": "mobileImage",
