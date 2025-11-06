@@ -206,11 +206,6 @@
         "assetType": "image"
       },
       {
-        "component": "custom-asset-namespace:custom-asset-mimetype",
-        "valueType": "string",
-        "name": "imageMimeType"
-      },
-      {
         "component": "text",
         "valueType": "string",
         "name": "altextforimage",
